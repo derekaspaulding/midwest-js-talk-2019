@@ -1,0 +1,9 @@
+.example button {
+  border: none;
+  cursor: pointer;
+}
+
+.example {
+  font-size: 72px;
+  margin-left: 150px;
+}

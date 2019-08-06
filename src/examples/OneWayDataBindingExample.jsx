@@ -17,20 +17,26 @@ function Inputs() {
 
   return (
     <div className="inputs">
+      {/*  live-code-helper:include:end */}
       <h2>Does Not Work 😡</h2>
       <label>
+        {/* live-code-helper:include:start */}
         Inches
         <input type="number" value={values.in} onChange={handleInchesChange} />
+        {/* live-code-helper:include:end */}
       </label>
       <h2>Works! 🙌</h2>
       <label>
+        {/* live-code-helper:include:start */}
         Centimeters
         <input
           type="number"
           value={values.cm}
           onChange={handleCentimetersChange}
         />
+        {/* live-code-helper:include:end */}
       </label>
+      {/* live-code-helper:include:start */}
     </div>
   );
 }

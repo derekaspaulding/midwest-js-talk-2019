@@ -38,8 +38,6 @@ function formatSource(source) {
     return [...lines, ...sourceLines.slice(pair[0], pair[1])];
   }, []);
 
-  console.log(groupPairs);
-
   return includedLines.join("\n");
 }
 

@@ -12,7 +12,9 @@ import {
   OneWayDataBinding,
   PresentationTitle,
   Basics,
-  ComponentState
+  ComponentState,
+  ClassSetState,
+  HookSetState
 } from "./slides";
 
 // Require CSS
@@ -47,7 +49,9 @@ const Presentation = () => (
     <OneWayDataBinding />
     <OneWayDataBindingExampleSlide />
     <Basics />
-    <ComponentState />
+    {ComponentState()}
+    <ClassSetState />
+    <HookSetState />
   </Deck>
 );
 
