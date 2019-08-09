@@ -48,6 +48,13 @@ import boredGif from "./memes/bored.gif";
 import { WhyUseALibrary } from "./slides/StateManagementLibraries/WhyUseALibrary";
 import { LibraryTradeoffs } from "./slides/StateManagementLibraries/LibraryTradeoffs";
 import { LibraryOptions } from "./slides/StateManagementLibraries/LibraryOptions";
+import { TestingPyramid } from "./slides/WhereToPutState/TestingPyramid";
+import { StatePyramid } from "./slides/WhereToPutState/StatePyramid";
+import { GlobalState } from "./slides/WhereToPutState/GlobalState";
+import { SubTreeState } from "./slides/WhereToPutState/SubTreeState";
+import { ComponentStateLevel } from "./slides/WhereToPutState/ComponentState";
+import { Thanks } from "./slides/Thanks";
+import { MotivationsRecap } from "./slides/MotivationsRecap";
 
 // Require CSS
 require("normalize.css");
@@ -85,7 +92,7 @@ const Presentation = () => (
     <HookSetState />
     {PropsBasics()}
     {/* <OneWayDataBinding /> */}
-    <OneWayDataBindingExampleSlide />
+    {/* <OneWayDataBindingExampleSlide /> */}
     <GreetingDemo />
     <GreetingCode />
     <NameInputCode />
@@ -131,6 +138,13 @@ const Presentation = () => (
     <Slide bgColor="secondary">
       <Heading>How to choose where to put state?</Heading>
     </Slide>
+    <TestingPyramid />
+    <StatePyramid />
+    {GlobalState()}
+    {SubTreeState()}
+    {ComponentStateLevel()}
+    <MotivationsRecap />
+    <Thanks />
   </Deck>
 );
 
