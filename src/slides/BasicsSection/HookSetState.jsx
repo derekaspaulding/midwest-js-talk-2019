@@ -1,9 +1,9 @@
 import React from "react";
 import { Slide, Heading, Code } from "spectacle";
-import LiveCode from "../helpers/LiveCode";
-import HookSetStateExample from "../examples/HookSetState";
+import LiveCode from "../../helpers/LiveCode";
+import HookSetStateExample from "../../examples/HookSetState";
 // eslint-disable-next-line import/no-webpack-loader-syntax
-import rawHookSetStateExample from "!!raw-loader!../examples/HookSetState";
+import rawHookSetStateExample from "!!raw-loader!../../examples/HookSetState";
 import "./styles/CounterExample.css";
 
 export const HookSetState = () => (

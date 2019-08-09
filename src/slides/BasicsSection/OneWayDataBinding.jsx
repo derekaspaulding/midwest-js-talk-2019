@@ -3,7 +3,9 @@ import { Slide, Heading, List, ListItem } from "spectacle";
 
 export const OneWayDataBinding = () => (
   <Slide>
-    <Heading size={2}>One Way Data Binding</Heading>
+    <Heading size={4} textColor="tertiary">
+      One Way Data Binding
+    </Heading>
     <List>
       <ListItem>Data changes can only flow down the component tree</ListItem>
       <ListItem>

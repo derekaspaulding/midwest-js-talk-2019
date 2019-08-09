@@ -1,10 +1,10 @@
 import React from "react";
 import { Slide, Heading } from "spectacle";
-import LiveCode from "../helpers/LiveCode";
-import OneWayDataBindingExample from "../examples/OneWayDataBindingExample";
+import LiveCode from "../../helpers/LiveCode";
+import OneWayDataBindingExample from "../../examples/OneWayDataBindingExample";
 // eslint-disable-next-line import/no-webpack-loader-syntax
-import rawOneWayDataBindingExample from "!!raw-loader!../examples/OneWayDataBindingExample";
-import KeyPress from "../helpers/KeyPress";
+import rawOneWayDataBindingExample from "!!raw-loader!../../examples/OneWayDataBindingExample";
+import KeyPress from "../../helpers/KeyPress";
 
 export const OneWayDataBindingExampleSlide = () => (
   <Slide>

@@ -42,9 +42,6 @@ export const WhyIsStateHardSlide = () => (
                 multiple components
               </ListItem>
             </Appear>
-            <Appear>
-              <ListItem bold={false}>One Way Data Binding</ListItem>
-            </Appear>
           </List>
         </ListItem>
       </Appear>
