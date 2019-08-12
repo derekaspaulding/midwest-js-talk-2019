@@ -13,4 +13,4 @@ To edit the slides:
 1. npm start
 1. navigate to http://localhost:3000
 
-This slide deck was created with SpectacleJS
+This slide deck was created with [SpectacleJS](https://github.com/FormidableLabs/spectacle)
