@@ -15,11 +15,7 @@ export const PropsBasics = () => (
         Changing prop value always* causes the component to update
       </ListItemAppear>
       <ListItemAppear>Data flows from parent to child</ListItemAppear>
-      <List>
-        <ListItemAppear>
-          Known as <strong>One Way Data Binding</strong>
-        </ListItemAppear>
-      </List>
+      <ListItemAppear>Allows re-usability</ListItemAppear>
     </List>
   </Slide>
 );
